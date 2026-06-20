@@ -1,6 +1,6 @@
 # FFC (Fuckin Fast Copier)
 
-Copies files/directories from one machine to another using tar + rsync for speed.
+Copies files/directories one place to another using tar + rsync for speed.
 
 ## Usage
 
@@ -8,7 +8,7 @@ Copies files/directories from one machine to another using tar + rsync for speed
 python main.py
 ```
 
-Then enter the source path and destination path (e.g., `user@host:/path`).
+Then enter the source path and destination path (e.g., `user/home` , `/run/media/user/monthly home backup`).
 
 ## How it works
 
@@ -20,4 +20,4 @@ Then enter the source path and destination path (e.g., `user@host:/path`).
 ## Requirements
 
 - Python 3
-- `tar`, `rsync` on both machines
+- `tar`, `rsync` 
